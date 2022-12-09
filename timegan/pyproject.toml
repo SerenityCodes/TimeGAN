@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "timegan-tensorflow"
+version = "1.0.0"
+description = "TimeGAN Implementation for training a RL model"
+authors = ["Developer <72942847+paper-my-spigot@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "timegan_tensorflow"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+tensorflow = "^2.11.0"
+pandas = "^1.5.2"
+numpy = "^1.23.5"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
